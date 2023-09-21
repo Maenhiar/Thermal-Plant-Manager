@@ -1,0 +1,116 @@
+--- ENGLISH ---
+For reasons of practicality and feasibility, this software will not provide the development of the infrastructure necessary for any remote control nor, much less, will it provide the necessary integrations for effective communication with the elements of the thermal plants. On the contrary, the component management part will remain entirely limited to the software itself but prepared for expansions, interoperability and future integrations. This choice was also made due to the fact that, as there are countless different brands and types of the same element of the thermal plant, and considering that each of these could require a different technology to be driven in practice, it is more convenient to develop a software that implements all the basic logic and can be used in all situations, leaving the components necessary for effective communication with the specific element to be integrated modularly according to needs.
+This software must store and implement theese features:
+
+-   Each condominium has address, name (optional), number of apartments and administrator data.
+
+-   Each condominium can have multiple thermal plants. Each thermal plant has an address and the various component that can be installed there,
+    such as: one or more boilers, one or more circulators (the pumps that flow water in the hydraulic system), one or more mixing valves (they
+    regulate the water temperature by mixing hot and cold water), one more boiler (they are domestic hot water accumulators).
+    Each circulator has a thermal switch: if the thermal switch is ON the circulator can work normally, if the thermal switch is OFF it means that
+    there is an anomaly in the circulator and therefore it must absolutely not start (or, similarly, it must turn off).
+
+-   A plumbing system is generally made up of two distinct main parts: the sanitary system, that is the system that guarantees the circulation of
+    water used for sanitary purposes (such as that of the taps, shower, bathtub, etc.) and the heating system, which allows the passage 
+    of hot water into the radiators/underfloor system to heat up the apartments. There is also a third part, called "recirculation", a system to
+    support the sanitary system. For this reason, the various elements of the thermal plant can be used for the sanitary system, the heating
+    system or the recirculation system.
+
+-   Each thermal plant has a heating probe (which indicates the temperature of the water for heating), a sanitary probe (taht must be 
+    inserted into a boiler and is therefore called a "boiler probe"), a recirculation probe and a external probe which measures the external
+    temperature.
+
+-   Each element of the thermal plant has a manufacturer and a product code.
+
+-   The elements of a thermal plant (except the probes and, in this case, the boilers) can follow a time schedule in which the user chooses the day
+    and time of switching on or off  the regulation (it is possible to set multiple switching on and off in each single day of the week) and
+    chooses the temperature that the previously mentioned parts of the system must reach. This desired temperature  is called "setpoint". 
+    To understand if a system has reached the setpoint temperature, it is sufficient to monitor the value of the probes illustrated above.
+    Each condominium can have a dedicated timer for each of the system parts mentioned above. These timers provide automation heating systems of
+    the condominium as they take care of jointly turning on and off each element used in the aforementioned part. Each thermal plant can have at
+    most one timer for each part of the hydraulic system already described (heating, sanitary and recirculation).
+  
+-   The daily programming can be set in different modes: OFF and ON. The heating timer has alternative ON modes, named: ECO, COMFORT and MANUAL.
+
+-   In OFF mode, the elements are turned off.
+    In ON mode, the elements are switched on until the desired part of the system reaches the temperature of setpoint.
+    In ECO mode, the elements of the thermal plant used for heating are turned on and the temperature the system must reach before these go off is
+    calculated with a specific mathematical formula called "climate curve" from which a value of temperature settable by the user must be
+    subtarcted.
+    In COMFORT mode, the elements of the thermal plant used for heating are turned on and the temperature the system must reach before they go off
+    is calculated with the same mathematical formula just mentioned without subtracting the settable value.
+    In MANUAL mode, the elements of the thermal plant used for heating are turned on and the temperature the system must reach before they turn off
+    is set by the user.
+
+-   The furnaces are activated every time there is a "request", i.e. when it is necessary to heat the water of heating system or sanitary system
+    according to the criteria defined above. Furthermore, furnaces can be of two types: ON/OFF furnaces, i.e furnaces that can only be turned on
+    and off, and modular furnaces, in which it is possible to regulate the power of the furnace. In the latter case, the minimum power is
+    equivalent to the boiler being turned off.
+
+-   The valves do not have an ON or OFF function because they always remain active, however it is possible to regulate their opening/closing.
+
+-   Finally, each thermal plant has an ON and OFF switch. If this switch is OFF, each element of the thermal plant must be turned off immediately.
+    There is also a similar switch but which acts on all the thermal plants in the condominium. There is one last button, which activates manual
+    mode. If this mode is active, it is not the timers that manage the thermal plant but it is the user who can turn any component ON or OFF as he
+    wishes, as long as the power switch is not OFF.
+
+--- ITALIANO ---
+Si specifica sin da subito che, per motivi di praticità e fattibilità, il software in oggetto non prevederà lo sviluppo dell'infrastruttura necessaria a un eventuale controllo da remoto né, tanto meno, prevederà le varie integrazioni necessarie all'effettiva comunicazione con gli elementi delle centrali termiche. Al contrario, la parte della gestione dei componenti rimarrà interamente circoscritta al software stesso ma predisposta ad ampliamenti, interoperabilità e integrazioni future. Questa scelta è stata fatta anche per via del fatto che, esistendo innumerevoli marche e tipi differenti di uno stesso elemento della centrale termica, e considerato che ognuno di questi potrebbe richiedere una diversa tecnologia per essere pilotato nella pratica, è più conveniente sviluppare un software che implementi tutta la logica di base e che sia utilizzabile in tutte le situazioni, lasciando che le componentistiche necessarie all'effettiva comunicazione con l'elemento specifico siano integrate modularmente a seconda delle necessità.
+Il software dovrà memorizzare e implementare quanto segue:
+
+-   Ogni condominio possiede indirizzo, nome (opzionale), numero di appartamenti e dati dell'amministratore.
+
+-   Ogni condominio può possedere più centrali termiche. Ogni centrale termica possiede un indirizzo e i vari elementi che vi si
+    possono installare, come: una o più caldaie, uno o più circolatori (le pompe che fanno girare l'acqua nell'impianto idraulico), una o più
+    valvole miscelatrici (regolano la temperatura dell'acqua tramite miscelazione tra acqua calda e acqua fredda), uno più boiler (sono degli
+    accumulatori di acqua calda a uso sanitario).
+    Ogni circolatore ha una termica: se la termica è ON il circolatore può funzionare normalmente, se la termica è OFF significa che c'è
+    un'anomalia nel circolatore e quindi questo non deve assolutamente partire (o, analogamente, deve spegnersi).
+
+-   Si specifica che un impianto idraulico è generalmente formato da due parti principali distinte: l'impianto sanitario, ovvero l'impianto che
+    garantisce la circolazione dell'acqua adibita a uso sanitario (come quella dei rubinetti, della doccia, della vasca ecc.) e l'impianto di
+    riscaldamento, ovvero quello che consente il passaggio di acqua calda nei termosifoni/impianto a pavimento per riscaldare gli appartamenti.
+    Vi è anche una terza parte, quella del "ricircolo", un impianto di ausilio a quello sanitario.     
+    Per questo motivo, i vari elementi della centrale termica possono essere adibiti all'impianto sanitario, a quello di riscaldamento
+    o a quello di ricircolo.
+
+-   Ogni centrale ha una sonda di riscaldamento (che indica la temperatura dell'acqua per il riscaldamento), una sonda del
+    sanitario (analogo, ma questa va inserita in un boiler e quindi viene denominata "sonda boiler"), una sonda del ricircolo e una sonda
+    esterna che misura la temperatura esterna.
+
+-   Ogni elemento della centrale termica ha una marca e un codice prodotto.
+
+-   Gli elementi di una centrale termica (tranne le sonde e, in questo caso, i boiler) possono seguire una programmazione oraria in cui 
+    l'utente sceglie il giorno e l'ora di accensione/regolazione e spegnimento (è possibile impostare più accensioni e spegnimenti in ogni 
+    singolo giorno della settimana) e sceglie la temperatura che le parti di impianto prima citate devono raggiungere. Questa temperatura
+    desiderata è chiamata "setpoint".
+    Per capire se un impianto ha raggiunto la temperatura di setpoint è sufficiente monitorare il valore delle relative sonde prima illustrate.
+    Ogni condominio può avere un timer dedicato per ciascuna delle parti di impianto prima citate. Questi timer provvedono all'automazione delle 
+    centrali termiche del condominio in quanto si occupano di accendendere e spegnere congiuntamente ogni elemento adibito a suddetta parte. Una 
+    centrale termica può avere al più un timer per ogni parte di impianto (riscaldamento, sanitario e ricircolo). 
+  
+-   La programmazione giornaliera è impostabile in diverse modalità: OFF e ON. In aggiunta, il solo timer dedicato agli elmenti
+    adibiti al riscaldamento, possiede delle modalità sostitutive a ON, ovvero: ECO, COMFORT e MANUALE.
+
+-   In modalità OFF, gli elementi sono spenti.
+    In modalità ON, gli elementi sono accesi fin tanto che la parte di impianto in questione non raggiunga la temperatura di 
+    setpoint.
+    In modalità ECO, gli elementi della centrale adibiti al riscaldamento sono accesi e la temperatura a cui deve arrivare l'impianto 
+    prima che questi si spengano è calcolata con una specifica formula matematica denominata "curva climatica" a cui va sottratto un valore di
+    temperatura impostabile dall'utente.
+    In modalità COMFORT, gli elementi della centrale adibiti al riscaldamento sono accesi e la temperatura a cui deve arrivare l'impianto 
+    prima che questi si spengano è calcolata con la medesima formula matematica appena citata senza la sottrazione del valore impostabile.
+    In modalità MANUALE, gli elementi della centrale adibiti al riscaldamento sono accesi e la temperatura a cui deve arrivare l'impianto 
+    prima che questi si spengano è impostata dall'utente.
+
+-   Le caldaie si attivano ogni qual volta vi sia una "richiesta", ovvero quando è necessario riscaldare l'acqua di una delle due
+    tipologie di impianto principali secondo i criteri definiti sopra. Inoltre, le caldaie possono essere di due tipi: caldaie ON/OFF, ovvero 
+    caldaie che si possono solo accendere e spegnere, e caldaie a regolazione, in cui è possibile regolare la potenza della caldaia. 
+    In quest'ultimo caso, la potenza minima equivale alla caldaia spenta.
+
+-   Le valvole non hanno accensione o spegnimento perché rimangono sempre attive, è tuttavia possibile regolare la loro apertura/chiusura.
+
+-   Infine, ogni centrale ha un interruttore di accensione e spegnimento. Se questo interruttore è OFF, ogni elemento della centrale deve
+    spegnersi immediatamente. È presente anche un interruttore analogo ma che agisce su tutte le centrali del condominio.
+    Vi è un ultimo pulsante, che attiva la modalità manuale. Se questa modaltà è attiva, non sono i timer a gestire la centrale ma
+    è l'utente che può accendere o spegnere qualsiasi componente a suo piacimento, sempre che l'interruttore di accensione non sia spento.

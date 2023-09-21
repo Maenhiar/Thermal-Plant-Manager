@@ -1,0 +1,63 @@
+---ENGLISH---
+
+I want to develop a software to register condominiums used for civil use and which allows us to control and manage the automation of their thermal plants. A thermal plant is an area of a building dedicated to containing all those useful or indispensable elements for providing hot water and air conditioning to a home.
+Automation is the process that allows these elements to be managed and piloted automatically, for example through software.
+
+This software could be useful for various companies that operate in this sector.
+
+Functional requirements:
+
+     -  We want to record the main data of each condominium such as address, name (optional), number of apartments and data
+        of the administrator.
+
+     -  Given that each condominium can own multiple thermal plants, similarly to the previous point, each thermal plant must
+        record its address and the various elements it may possess, such as: one or more boilers, one or more circulators (the pumps that flows 
+        the water in the plumbing system), one or more mixing valves (that regulate the water temperature by mixing hot water and cold water), 
+        one more boiler (they are hot water accumulators for sanitary use).
+
+     -  Each element of the boiler room has a brand and a product code that the application must keep track of.
+
+     -  The elements of a thermal plant can follow a time schedule ("timer") in which the user chooses the day and time of switching them on or off 
+        (it is possible to set multiple switching on and off on every single day of the week) and chooses the temperature that the previously
+        mentioned parts of the system must reach. This desired temperature is called "setpoint".
+
+     -  Finally, the software must provide a mechanism to turn off every element of the thermal plant immediately. This feature is very useful in
+        case of problems. There must also be the possibility of activating manual mode. If this mode is active, it is not the timers that
+        control the thermal plant components but it is the user who can turn anything on or off.
+
+Non-functional requirements:
+
+     -  The software must have good performance.
+
+
+---ITALIANO---
+
+Si desidera sviluppare un software per registrare i condomini adibiti a uso civile e che consenta di controllare e gestire l'automazione delle loro centrali termiche. Una centrale termica è una zona di un edificio dedicata a contenere tutti quegli elementi utili e/o indispensabili per fornire acqua calda e climatizzazione a un'abitazione.
+L'automazione è quel processo che consente di gestire e pilotare automaticamente, ad esempio tramite software, questi elementi.
+
+Questo software potrebbe essere utile per diverse aziende che operano nel settore.
+
+Requisiti funzionali:
+
+    -   Si desidera registrare i dati principali di ogni condominio come indirizzo, nome (opzionale), numero di appartamenti e dati
+        dell'amministratore.
+
+    -   Dato che ogni condominio può possedere più centrali termiche, in modo analogo al punto precedente, di ogni centrale termica si devono
+        registrare l'indirizzo e i vari elementi che eventualmente possiede, come: una o più caldaie, uno o più circolatori (le pompe che fanno
+        girare l'acqua nell'impianto idraulico), una o più valvole miscelatrici (regolano la temperatura dell'acqua tramite miscelazione tra acqua
+        calda e acqua fredda), uno più boiler (sono degli accumulatori di acqua calda ad uso sanitario).
+
+    -   Ogni elemento della centrale termica ha una marca e un codice prodotto di cui l'applicazione deve tenere traccia.
+
+    -   Gli elementi di una centrale termica possono seguire una programmazione oraria in cui l'utente sceglie il giorno e l'ora di 
+        accensione/regolazione e spegnimento (è possibile impostare più accensioni e spegnimenti in ogni singolo giorno della settimana) e 
+        sceglie la temperatura che le parti di impianto prima citate devono raggiungere. Questa temperatura desiderata è chiamata "setpoint".
+
+    -   Infine, il software deve mettere a disposizione un meccanismo per spegnere ogni elemento della centrale immediatamente. Questa funzionalità
+        è molto utile in caso di problemi.
+        Deve essere presente anche la possibiltà di attivare la modalità manuale. Se questa modaltà è attiva, non sono i timer a gestire 
+        la centrale ma è l'utente che può accendere o spegnere qualsiasi cosa a suo piacimento.
+
+Requisiti non funzionali:
+
+    -   Il software dovrà avere delle buone performance.
