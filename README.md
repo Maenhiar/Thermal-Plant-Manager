@@ -4,7 +4,7 @@ Thermal Plant Manager is a software that allows to register condominiums used fo
 Automation is the process that allows these elements to be managed and piloted automatically, for example through software.
 For reasons of practicality and feasibility, this software will not provide the development of the infrastructure necessary for any remote control nor, much less, will it provide the necessary integrations for effective communication with the elements of the thermal plants. On the contrary, the component management part will remain entirely limited to the software itself but prepared for expansions, interoperability and future integrations. This choice was also made due to the fact that, as there are countless different brands and types of the same element of the thermal plant, and considering that each of these could require a different technology to be driven in practice, it is more convenient to develop a software that implements all the basic logic and can be used in all situations, leaving the components necessary for effective communication with the specific element to be integrated modularly according to needs.
 
-This software was commissioned by me to myself but could be useful for various companies that operate in this sector.
+This may be useful for various companies that operate in this sector.
 
 Functional requirements:
 
