@@ -1,5 +1,8 @@
 package controller;
 
+/**
+ * This class implements the controller of the MVC design of the application.
+ */
 public class ControllerImpl implements Controller {
 
     @Override

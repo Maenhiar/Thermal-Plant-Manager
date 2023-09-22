@@ -3888,7 +3888,7 @@
 									},
 									"font": "Arial;20;0",
 									"left": 1712,
-									"top": 288,
+									"top": 296,
 									"width": 441,
 									"height": 132,
 									"text": "This association is needed to reach PlumbingComonent instances that are not associated with any ThermalPlant instance."
