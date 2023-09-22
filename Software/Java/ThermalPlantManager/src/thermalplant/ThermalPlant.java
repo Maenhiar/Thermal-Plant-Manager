@@ -1,4 +1,4 @@
-package condominium;
+package thermalplant;
 
 import hydraulic.PlumbingComponent;
 

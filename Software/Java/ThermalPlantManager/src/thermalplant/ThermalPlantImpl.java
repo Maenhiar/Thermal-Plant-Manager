@@ -1,6 +1,7 @@
-package condominium;
+package thermalplant;
 
 import hydraulic.PlumbingComponent;
+import thermalplant.ThermalPlant;
 
 import java.util.Collections;
 import java.util.Set;

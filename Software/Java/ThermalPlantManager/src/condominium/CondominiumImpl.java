@@ -1,5 +1,9 @@
 package condominium;
 
+import condominiummanager.CondominiumManager;
+import condominiummanager.CondominiumManagerImpl;
+import thermalplant.ThermalPlant;
+
 import java.util.Collections;
 import java.util.Optional;
 import java.util.Set;

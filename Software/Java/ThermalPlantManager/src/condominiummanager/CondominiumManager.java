@@ -1,4 +1,4 @@
-package condominium;
+package condominiummanager;
 
 import java.util.Optional;
 
