@@ -6,7 +6,7 @@ package controller;
 public class ControllerImpl implements Controller {
 
     @Override
-    public void startView() {
+    public void launchApplication() {
 
     }
 
@@ -15,13 +15,11 @@ public class ControllerImpl implements Controller {
 
     }
 
-    @Override
-    public void updateView() {
+    public static final class Main {
 
-    }
-
-    @Override
-    public void stopView() {
+        public static void main(String[] args)  {
+            new ControllerImpl().launchApplication();
+        }
 
     }
 

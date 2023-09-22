@@ -362,19 +362,19 @@
 									"subViews": [
 										{
 											"_type": "UMLOperationView",
-											"_id": "AAAAAAGKrXY8st5G2Go=",
+											"_id": "AAAAAAGKvTSdSC4PVI8=",
 											"_parent": {
 												"$ref": "AAAAAAGKrRMKQ9xQKo0="
 											},
 											"model": {
-												"$ref": "AAAAAAGKrXY8qN5DmSQ="
+												"$ref": "AAAAAAGKvTSdHy4M4B8="
 											},
 											"font": "Arial;20;0",
 											"left": 581,
 											"top": 161,
 											"width": 207,
 											"height": 20,
-											"text": "+startView()",
+											"text": "+launchApplication()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -393,47 +393,13 @@
 											"height": 20,
 											"text": "+processInput()",
 											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAGKrXdFnt5OlSo=",
-											"_parent": {
-												"$ref": "AAAAAAGKrRMKQ9xQKo0="
-											},
-											"model": {
-												"$ref": "AAAAAAGKrXdFjN5LDq8="
-											},
-											"font": "Arial;20;0",
-											"left": 581,
-											"top": 205,
-											"width": 207,
-											"height": 20,
-											"text": "+updateView()",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAGKrXe7E95XBMI=",
-											"_parent": {
-												"$ref": "AAAAAAGKrRMKQ9xQKo0="
-											},
-											"model": {
-												"$ref": "AAAAAAGKrXe7BN5Uizc="
-											},
-											"font": "Arial;20;0",
-											"left": 581,
-											"top": 227,
-											"width": 207,
-											"height": 20,
-											"text": "+stopView()",
-											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;20;0",
 									"left": 576,
 									"top": 156,
 									"width": 217,
-									"height": 96
+									"height": 52
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -1963,11 +1929,11 @@
 					"operations": [
 						{
 							"_type": "UMLOperation",
-							"_id": "AAAAAAGKrXY8qN5DmSQ=",
+							"_id": "AAAAAAGKvTSdHy4M4B8=",
 							"_parent": {
 								"$ref": "AAAAAAGKrRMKQ9xH6Bg="
 							},
-							"name": "startView"
+							"name": "launchApplication"
 						},
 						{
 							"_type": "UMLOperation",
@@ -1976,22 +1942,6 @@
 								"$ref": "AAAAAAGKrRMKQ9xH6Bg="
 							},
 							"name": "processInput"
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAGKrXdFjN5LDq8=",
-							"_parent": {
-								"$ref": "AAAAAAGKrRMKQ9xH6Bg="
-							},
-							"name": "updateView"
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAGKrXe7BN5Uizc=",
-							"_parent": {
-								"$ref": "AAAAAAGKrRMKQ9xH6Bg="
-							},
-							"name": "stopView"
 						}
 					]
 				},
