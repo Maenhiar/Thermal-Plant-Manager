@@ -1,6 +1,6 @@
-package hydraulic.furnaces;
+package model.hydraulic.furnaces;
 
-import hydraulic.PlumbingComponent;
+import model.hydraulic.PlumbingComponent;
 
 /**
  * This interface represents a furnace with modular power.

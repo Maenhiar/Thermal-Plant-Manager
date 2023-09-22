@@ -1,4 +1,4 @@
-package hydraulic;
+package model.hydraulic;
 
 /**
  * This interface represents a generic plumbing component.

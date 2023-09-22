@@ -1,4 +1,4 @@
-package hydraulic;
+package model.hydraulic;
 
 /**
  * This class represents an abstract plumbing component.

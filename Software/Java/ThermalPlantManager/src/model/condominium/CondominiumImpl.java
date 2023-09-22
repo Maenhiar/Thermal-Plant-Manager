@@ -1,8 +1,8 @@
-package condominium;
+package model.condominium;
 
-import condominiummanager.CondominiumManager;
-import condominiummanager.CondominiumManagerImpl;
-import thermalplant.ThermalPlant;
+import model.condominiummanager.CondominiumManager;
+import model.condominiummanager.CondominiumManagerImpl;
+import model.thermalplant.ThermalPlant;
 
 import java.util.Collections;
 import java.util.Optional;

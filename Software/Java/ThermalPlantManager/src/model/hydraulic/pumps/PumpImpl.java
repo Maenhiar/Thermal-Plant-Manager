@@ -1,6 +1,6 @@
-package hydraulic.pumps;
+package model.hydraulic.pumps;
 
-import hydraulic.AbstractPlumbingComponent;
+import model.hydraulic.AbstractPlumbingComponent;
 
 /**
  * This class implements a pump, a device that is needed to move the water

@@ -1,6 +1,6 @@
-package hydraulic.valves;
+package model.hydraulic.valves;
 
-import hydraulic.AbstractPlumbingComponent;
+import model.hydraulic.AbstractPlumbingComponent;
 
 public final class ValveImpl extends AbstractPlumbingComponent implements Valve {
     private int regulationValue = 0;

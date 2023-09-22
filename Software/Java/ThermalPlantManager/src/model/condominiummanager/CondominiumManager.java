@@ -1,4 +1,4 @@
-package condominiummanager;
+package model.condominiummanager;
 
 import java.util.Optional;
 

@@ -1,7 +1,7 @@
-package condominium;
+package model.condominium;
 
-import condominiummanager.CondominiumManager;
-import thermalplant.ThermalPlant;
+import model.condominiummanager.CondominiumManager;
+import model.thermalplant.ThermalPlant;
 
 import java.util.Optional;
 import java.util.Set;

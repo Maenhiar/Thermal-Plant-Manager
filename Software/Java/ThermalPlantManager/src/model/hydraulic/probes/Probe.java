@@ -1,6 +1,6 @@
-package hydraulic.probes;
+package model.hydraulic.probes;
 
-import hydraulic.PlumbingComponent;
+import model.hydraulic.PlumbingComponent;
 
 /**
  * This interface represents a probe, a device that is needed to measure

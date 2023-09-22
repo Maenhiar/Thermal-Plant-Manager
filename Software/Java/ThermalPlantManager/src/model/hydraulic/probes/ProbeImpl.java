@@ -1,6 +1,6 @@
-package hydraulic.probes;
+package model.hydraulic.probes;
 
-import hydraulic.AbstractPlumbingComponent;
+import model.hydraulic.AbstractPlumbingComponent;
 
 /**
  * This class implements a probe, a device that is needed to measure

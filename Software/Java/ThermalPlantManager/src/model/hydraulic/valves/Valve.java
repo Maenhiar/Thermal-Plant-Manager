@@ -1,6 +1,6 @@
-package hydraulic.valves;
+package model.hydraulic.valves;
 
-import hydraulic.PlumbingComponent;
+import model.hydraulic.PlumbingComponent;
 
 /**
  * This interface represents a valve, a device that is needed to regulate the water

@@ -1,6 +1,6 @@
-package hydraulic.pumps;
+package model.hydraulic.pumps;
 
-import hydraulic.PlumbingComponent;
+import model.hydraulic.PlumbingComponent;
 
 /**
  * This interface represents a pump, a device that is needed to move the water

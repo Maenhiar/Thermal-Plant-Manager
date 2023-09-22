@@ -1,4 +1,4 @@
-package hydraulic.valves;
+package model.hydraulic.valves;
 
 public enum ModularFurnaceMainPowerLevel {
     OFF_POWER_LEVEL(0),

@@ -1,6 +1,6 @@
-package thermalplant;
+package model.thermalplant;
 
-import hydraulic.PlumbingComponent;
+import model.hydraulic.PlumbingComponent;
 
 import java.util.Set;
 
